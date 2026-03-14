@@ -8,7 +8,7 @@ Measuring literacy over time is challenging, as definitions of literacy differ a
 
 The app allows users to explore literacy data both geographically and temporally through two interactive visualizations: a world map and a time-series line graph. 
 
-- **Map:** The map view displays literacy rates for countries around the world in a selected year.
+**Map:** The map view displays literacy rates for countries around the world in a selected year.
 
 - A **year slider** allows users to choose a year between **1475 and 2023**.
 - Since literacy data is not available for every country every year, the map displays the **most recent recorded literacy rate that is less than or equal to the selected year**.
@@ -23,7 +23,7 @@ Users can **hover over a country** to view detailed information, including:
 This visualization helps users quickly understand **global literacy distribution at a specific point in time**.
 
 
-- **Line Graph:** The line graph view shows how literacy rates change **over time** for selected countries.
+**Line Graph:** The line graph view shows how literacy rates change **over time** for selected countries.
 
 - Users can **select multiple countries** to compare their literacy trends.
 - A **year-range slider** allows users to filter the data by choosing a **minimum and maximum year**.
