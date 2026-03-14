@@ -4,12 +4,36 @@
 
 Literacy is a foundational skill. Children need to learn to read so that they can "read to learn," and failing to teach this skill limits opportunities for a rich and fulfilling life. This project visualizes global literacy rates, focusing on adults aged 15 and older who can read and write simple everyday sentences. 
 
-Measuring literacy over time is challenging, as definitions of literacy differ across countries and historical periods. This visualization combines historical and contemporary literacy data to provide a long-term perspective on global literacy trends from 1451 to the present.
+Measuring literacy over time is challenging, as definitions of literacy differ across countries and historical periods. To address this challenge, the visualization combines historical and modern datasets to provide a long-term perspective on literacy trends from 1475 to 2023.
 
-The app allows users to explore literacy data both geographically and temporally:  
+The app allows users to explore literacy data both geographically and temporally through two interactive visualizations: a world map and a time-series line graph. 
 
-- **Map Tab:** Shows literacy rates for all countries in a selected year.  
-- **Line Graph Tab:** Shows changes in literacy rates over time for selected countries and allows filtering by year range.
+- **Map:** The map view displays literacy rates for countries around the world in a selected year.
+
+- A **year slider** allows users to choose a year between **1475 and 2023**.
+- Since literacy data is not available for every country every year, the map displays the **most recent recorded literacy rate that is less than or equal to the selected year**.
+- Countries are **shaded according to their literacy rate**, making it easy to identify global patterns and regional differences.
+
+Users can **hover over a country** to view detailed information, including:
+
+- Country name  
+- Literacy rate  
+- The most recent year for which data is available  
+
+This visualization helps users quickly understand **global literacy distribution at a specific point in time**.
+
+
+- **Line Graph:** The line graph view shows how literacy rates change **over time** for selected countries.
+
+- Users can **select multiple countries** to compare their literacy trends.
+- A **year-range slider** allows users to filter the data by choosing a **minimum and maximum year**.
+- Each country is represented by a **line that tracks literacy rates across time**.
+
+Users can **hover over data points** to see detailed information, including:
+
+- Country name  
+- Year  
+- Literacy rate  
 
 ## Key Insights
 
@@ -35,6 +59,13 @@ Finally, these trends demonstrate both progress and the work that remains. Young
 [**Literacy rate**](https://ourworldindata.org/grapher/cross-country-literacy-rates?tab=map#all-charts) – Our World in Data
 
 ## Visualizations
+
+### Map
+![Map of Global Literacy Rates](visualizations/map.png)
+
+### Line Graph
+![Line Graph of Literacy Rates Over Time](visualizations/line_graph.png)
+
 
 ## Explore the Live App
 
